@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/textMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_title"
+            android:textSize="@dimen/title_size"
+            android:layout_marginTop="-25dp"
+            android:textColor="@color/primary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_title_1"
+            android:textSize="@dimen/title_size"
+            android:textColor="@color/primary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_activity"
+            android:textSize="@dimen/subtitle_size"
+            android:layout_marginTop="@dimen/margin_top_main"
+            />
+        <TextView
+            android:layout_width="@dimen/label_text"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la comida:"
+            android:textSize="@dimen/text_normal"
+            android:layout_marginTop="@dimen/margin_top_main"
+            />
+
+        <EditText
+            android:id="@+id/label_food"
+            android:layout_width="@dimen/input_text"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            />
+        <TextView
+            android:layout_width="@dimen/label_text"
+            android:layout_height="wrap_content"
+            android:text="Cantidad:"
+            android:layout_marginTop="@dimen/margin_top_main"
+            android:textSize="@dimen/text_normal"
+            />
+
+        <EditText
+            android:id="@+id/label_values"
+            android:layout_width="@dimen/input_text"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            android:inputType="number"
+            />
+        <TextView
+            android:layout_width="@dimen/label_text"
+            android:layout_height="wrap_content"
+            android:text="Dirección de despacho:"
+            android:layout_marginTop="@dimen/margin_top_main"
+            android:textSize="@dimen/text_normal"
+            />
+
+        <EditText
+            android:id="@+id/label_address"
+            android:layout_width="@dimen/input_text"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            />
+        <Button
+            android:id="@+id/button_pay"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/margin_top_main"
+            android:text="@string/button_pay"
+            android:textSize="@dimen/subtitle_size" />
+    </LinearLayout>
+
+</FrameLayout>

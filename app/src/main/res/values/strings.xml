@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">renzo_medina_seccioncurso</string>
+    <string name="app_title">Comida Rápida</string>
+    <string name="app_title_1">XYZ</string>
+    <string name="name_activity">Realiza tu pedido</string>
+    <string name="button_pay">Comprar</string>
+</resources>
